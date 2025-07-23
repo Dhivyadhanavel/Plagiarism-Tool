@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yesteryear&display=swap');
+
+.title-hp{
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+    
+.title-hp span{
+    font-family: "Yesteryear", cursive;
+    font-size :50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.collection-hp{
+    display: flex;
+    gap: 7vw;
+}
+.p2-hp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 70%;
+    margin-left:5vw;
+    padding: 5px;
+    border-radius: 20px;
+    
+    
+    
+}
+.p2-hp h3{
+    margin-right: auto;
+    margin-left: 2vw;
+    font-family: "Montserrat", serif;
+    font-weight:700;
+    font-size:large;
+    font-style: italic;
+    color:#03045E;
+}
+.p2-hp p{
+    transform: translateY(-30px);
+}
+.link-to-signin p{
+    width: 30vw;
+    margin-right: 8vw;
+    font-size: 29px;
+    padding: 10px;   
+}
+.nodup-hp{
+    position:absolute ;
+    width: 10vw;
+    height: 20vh;
+}
+.link-to-signin span{
+    font-size: 30px;
+    margin:5px auto;
+    font-style: italic;
+    font-weight: 800;
+    animation: colorChange 3s infinite;
+    
+
+}
+.link-to-signin span:hover,.link-to-signin span:active{
+    cursor: pointer;
+    color: #0e11a5;
+} 
+.p3-hp h3{
+    font-family:"Montserrat", serif;
+    font-weight:700;
+    font-size:30px;
+    font-style: italic; 
+    color:#03045E;
+    font-weight: 700;
+
+}
+.p3-hp p ul{
+    display: flex;
+
+    transform: translateX(-25px);
+    align-items: center;
+    justify-content: center;
+}
+.p3-hp p ul li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    flex-direction: column;
+    background-color: aliceblue;
+    width:150vw;
+    margin-left:2vw;
+    padding: 30px;
+    border-radius: 20px;
+    animation: glow 3s infinite;
+
+}
+
+.p3-hp p ul li .l1{
+    margin: 15px auto;
+    font-size: 30px;
+}
+.p4-hp h3{
+    font-family:"Montserrat", serif;
+    font-weight:700;
+    font-size:30px;
+    font-style: italic; 
+    color:#03045E;
+    font-weight: 700;
+
+    
+}
+.p4-hp p ol{
+    display: flex;
+    width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  position: relative;
+    transform: translateX(-25px);
+    align-items: center;
+    justify-content: center;
+}
+.p4-hp p ol li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 20vh;
+    flex-direction: column;
+    background-color: aliceblue;
+    width:200%;
+    margin-left:2vw;
+    padding: 30px;
+    border-radius: 20px;
+    animation: loop 10s linear infinite;
+
+}
+.p4-hp p ol li .l2{
+    margin: 15px auto;
+    font-size: 30px;
+}
+.p5-hp h3{
+    font-family:"Montserrat", serif;
+    font-weight:700;
+    font-size:30px;
+    font-style: italic; 
+    color:#03045E;
+    font-weight: 700;
+}
+
+.p5-hp p ul {
+    list-style-type: none;
+    
+
+}
+.p5-hp p ul li .l2{
+    
+    margin-left: 15px;
+    font-size: 29px;
+    
+}
+.p5-hp p ul li{
+    margin: 9px auto;
+    font-size: 18px;
+}
+@keyframes colorChange {
+    0% { color:#0e11a5; }
+    50% { color:#0207fa; }
+    100% { color:blueviolet; }
+  }
+
+@keyframes glow {
+    50% {
+      box-shadow: 0 0 40px hsl(194, 92%, 48%);
+    }
+  }
+
+
+  @keyframes loop {
+    from {
+      transform: translateX(100%);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
+
+  @media (max-width:570px){
+    .nodup-hp{
+        height: 7vh;
+        width: 16vw;
+        transform: translateY(-13px);
+
+    }
+    .p2-hp,.p2-hp h3{
+        height: 20%;
+        font-size: 12px;
+    }
+    .collection-hp{
+        display: flex;
+        gap: 0vw;
+        
+    }
+    .link-to-signin p{
+        font-size: 18px;
+        text-align: left;
+        
+        
+    }
+    .link-to-signin span{
+        font-size: 18px;
+        
+    }
+    .p3-hp p ul{
+        
+        flex-direction: column;
+        gap: 2vh;
+
+    }
+    .p3-hp p ul li{
+        width: 50%;
+        height: 15vh;
+    }
+    .p4-hp p ol{
+        flex-direction: column;
+        gap: 2vh;
+        align-items: center;
+        justify-content: center;
+        transform: translateX(-39px);
+
+    }
+    .p4-hp p ol li{
+        width: 50%;
+        height: 15vh;
+        align-items: center;
+        justify-content: center;
+    }
+    @keyframes loop {
+        from {
+          transform: translateY(100%);
+        }
+        to {
+          transform: translateY(-100%);
+        }
+      }
+    
+
+
+  }

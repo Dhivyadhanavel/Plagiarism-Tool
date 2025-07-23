@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap');
+.input-text1-pdf{
+    height: 50vh;
+    width: 30vw;
+    margin: auto;
+    resize: none;
+    
+    border: none;
+    border-radius: 6px;
+    
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    color: #03045E;
+    margin-bottom: 2vh;
+    margin-left: 2vw;
+    background-color:#90E0EF ;
+    display: flex;
+    flex-direction: column;
+    
+}
+.input-text2-pdf{
+    height: 50vh;
+    width: 30vw;
+    margin: auto;
+    margin-left: 2vw;
+    margin-bottom: 2vh;
+    resize: none;
+    background-color:#90E0EF ;
+    border: none;
+    border-radius: 6px;
+    font-size: 15px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    color: #03045E;
+   
+    
+}
+.excel1,.excel2{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    
+}
+.excel1 input,.excel2 input{
+    border-radius: 10px;
+    font-family: "Montserrat", serif;
+    display:none;
+    
+}
+.pdf1-file-choosen{
+    font-family: "Funnel Display", sans-serif;
+    font-style: italic;
+
+}
+.text1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+p{
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    margin-top: 6.5vh;
+    margin-left: 2vw;
+    color:  #03045E;
+}
+.text-logo{
+    font-size: 25px;
+    margin-top: 0vh;
+    
+}
+span{
+    font-size: 15px;
+    
+
+}
+.cmp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+    border-radius: 19px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    color: #03045E;
+    box-shadow: #00B4D8 0px 50px 100px -20px, #03045E 0px -2px 6px 0px inset;
+    
+   
+    
+
+}
+.excel1{
+    
+    display: flex;
+       
+     
+              
+    margin: auto;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 4vw;
+    margin-top: 20vh;
+    margin-right: 5vw;
+                      
+}
+.excel2{
+    
+    display: flex;
+    justify-content: center;
+       
+     
+              
+    margin: auto;
+    position: absolute;
+    font-size: 15px;
+    margin-left: 4vw;
+    margin-top: 20vh;
+    margin-right: 35vw;
+                      
+}
+.cmp:hover{
+    cursor: pointer;
+    font-weight: 700;
+}
+.i1:hover,.i2:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+@media (max-width:540px){
+    .input-text2-pdf{
+        height: 50vh;
+        width: 40vw;}
+    .input-text1-pdf{
+            height: 50vh;
+            width: 40vw;}
+
+}
